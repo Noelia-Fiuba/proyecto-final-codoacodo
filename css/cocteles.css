@@ -1,0 +1,139 @@
+
+  
+   
+
+   #header{
+    margin:auto;
+    width:500px;
+    font-family: 'Sofia', cursive;
+
+
+}
+.nav li a{
+    background-color:#16A085 ;
+    color:black;
+    width:500pc;
+    padding:10px 15px;
+    margin:0px;
+    text-decoration: none;
+
+}
+.nav li{
+    float:right;
+}
+.nav li a:hover{
+    background-color:#58D68D ;
+}
+ul, ol{
+    list-style: none;
+}
+
+
+h1{
+    text-align: left; 
+    margin-left: 150px;
+    margin: 0 auto;
+   }
+
+
+
+
+   
+    body {
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+ 
+    div {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+    }
+ 
+    h2 {
+        font-size: 4em;
+        font-family: serif;
+        color: transparent;
+        text-align: left;
+        animation: effect 2s linear infinite;
+        margin-left: 150px;
+    }
+ footer{
+    font-size: 4em;
+    font-family: serif;
+    color: white;
+    background-color:black;
+    height: 100px;
+ }
+    @keyframes effect {
+        0% {
+            background: linear-gradient(
+                #008000, #00FF00);
+            -webkit-background-clip: text;
+        }
+ 
+        100% {
+            background: linear-gradient(
+                #3CE7D7, #000FFF);
+            -webkit-background-clip: text;
+        }
+    }
+
+
+
+    html {
+        font-size: 62.5%;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    h3 {
+        font-size: 4rem;
+    }
+    
+    @media (min-width:992px) {
+        h3 {
+            font-size: 4rem;
+            text-align: left;
+        }
+    }
+    
+    h4 {
+        font-size: 3.2rem;
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+    
+    .contenedor {
+        max-width: 1200px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .entrada-blog a {
+        display: inline-block;
+        background-color: #2196F3;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
